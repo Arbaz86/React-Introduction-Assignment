@@ -26,7 +26,11 @@ function Logo() {
 }
 // Links component
 function Links(props) {
-  return <p className="nav-link">{props.link}</p>;
+  return (
+    <a href="" className="nav-link">
+      {props.link}
+    </a>
+  );
 }
 
 // button component
